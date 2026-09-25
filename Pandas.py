@@ -7,4 +7,9 @@ dados = { #dicionario que sera transformado em um dataframe
 
 dados_bi = pd.DataFrame(dados) # .DataFrame é o comando para criar o dataframe(a partir de algum dado)
 
-print(dados_bi)
+print(dados_bi.head(2))
+print(dados_bi.tail(2))
+print(dados_bi.shape) # mostra as linhas e colunas do dataframe
+print(dados_bi.info()) # mostra informações do dataframe
+print(dados_bi.describe())
+print(dados_bi.iloc(0))
